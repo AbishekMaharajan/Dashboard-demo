@@ -1,0 +1,24 @@
+{
+  "translations": {
+    "languageSelection": "Language Selection",
+    "continue": "Continue",
+    "back": "Back",
+
+    "auth": {
+      "title": "Account Login",
+      "login": "Login",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "signIn": "SignIn",
+      "signUp": "SignUp"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "projects": "Projects",
+      "scoreboard": "Scoreboard",
+      "settings": "Settings"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "translations": {
+    "languageSelection": "言語選択",
+    "continue": "続ける",
+    "back": "戻る",
+    "auth": {
+      "title": "アカウントログイン",
+      "login": "ログイン",
+      "name": "名前",
+      "email": "メール",
+      "password": "パスワード",
+      "confirmPassword": "コンフリムパスワード",
+      "signIn": "サインイン",
+      "signUp": "ログイン"
+    },
+    "dashboard": {
+      "title": "管理者ダッシュボード",
+      "projects": "プロジェクト",
+      "scoreboard": "スコアボード",
+      "settings": "セッティング"
+    }
+  }
+}

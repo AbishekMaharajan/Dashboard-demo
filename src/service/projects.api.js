@@ -1,14 +1,7 @@
-// Production
-// const PROJECTS_LIST_URL =
-//   "https://restaurant-communication-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/dataList/liveList.json";
-// const INDIVIDUAL_PROJECT =
-//   "https://restaurant-communication-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/simulationlist/live/";
 
 // Development
-const PROJECTS_LIST_URL =
-  "https://ys-hotel-dev-server-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/dataList/liveList.json";
-const INDIVIDUAL_PROJECT =
-  "https://ys-hotel-dev-server-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/simulationlist/live/";
+const PROJECTS_LIST_URL = "https://vrarri-dashboard-demo-2d19d-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/dataList/liveList.json";
+const INDIVIDUAL_PROJECT = "https://vrarri-dashboard-demo-2d19d-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/simulationlist/live/";
 
 export const getProjectsList = async () => {
   const res = await fetch(PROJECTS_LIST_URL);

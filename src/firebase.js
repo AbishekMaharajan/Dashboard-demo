@@ -2,31 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getDatabase, ref } from "firebase/database";
 
-// Production
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDK14cv_UxdDs6jy_MnN0aZS1oxDp3ezDc",
-//   authDomain: "restaurant-communication.firebaseapp.com",
-//   databaseURL:
-//     "https://restaurant-communication-default-rtdb.asia-southeast1.firebasedatabase.app",
-
-//   projectId: "restaurant-communication",
-//   storageBucket: "restaurant-communication.appspot.com",
-//   messagingSenderId: "841547074076",
-//   appId: "1:841547074076:web:63b3f99965b552ec226dd9",
-//   measurementId: "G-GB7EPP36H1",
-// };
-
-// Development
 const firebaseConfig = {
-  apiKey: "AIzaSyBQGBf5ZsN3Y4JtYBLRIGUFyA27D1-i5lw",
-  authDomain: "ys-hotel-dev-server.firebaseapp.com",
-  databaseURL:
-    "https://ys-hotel-dev-server-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "ys-hotel-dev-server",
-  storageBucket: "ys-hotel-dev-server.appspot.com",
-  messagingSenderId: "210397785079",
-  appId: "1:210397785079:web:3239ea181e41132cd5dcf2",
-  measurementId: "G-E2ZNEK8CKR",
+  apiKey: "AIzaSyAtt3LhqPJbhJT0cKhx98aGQGhhQrl6GSs",
+  authDomain: "vrarri-dashboard-demo-2d19d.firebaseapp.com",
+  projectId: "vrarri-dashboard-demo-2d19d",
+  storageBucket: "vrarri-dashboard-demo-2d19d.appspot.com",
+  messagingSenderId: "1058234796001",
+  appId: "1:1058234796001:web:ba3542537e64c60ec874a0",
+  measurementId: "G-3VN7GVH52X"
 };
 
 const app = initializeApp(firebaseConfig);

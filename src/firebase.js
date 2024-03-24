@@ -3,22 +3,24 @@ import { getAuth } from "firebase/auth";
 import { getDatabase, ref } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAtt3LhqPJbhJT0cKhx98aGQGhhQrl6GSs",
-  authDomain: "vrarri-dashboard-demo-2d19d.firebaseapp.com",
-  projectId: "vrarri-dashboard-demo-2d19d",
-  storageBucket: "vrarri-dashboard-demo-2d19d.appspot.com",
-  messagingSenderId: "1058234796001",
-  appId: "1:1058234796001:web:ba3542537e64c60ec874a0",
-  measurementId: "G-3VN7GVH52X"
+  apiKey: "AIzaSyCTsPsHStV5cRO3NVW_NRWvABFAdbVJI08",
+  authDomain: "vaarri-communicationtraining.firebaseapp.com",
+  databaseURL: "https://vaarri-communicationtraining-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "vaarri-communicationtraining",
+  storageBucket: "vaarri-communicationtraining.appspot.com",
+  messagingSenderId: "692526520052",
+  appId: "1:692526520052:web:78e327400b2e3dc252f0a1",
+  measurementId: "G-N35LCCXNEF"
 };
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
-
 export const db = getDatabase(app);
 
+export const BASE_URL = app?.options?.databaseURL || '';
 export const scoreListRef = ref(db, "users/ysHotel/staffsScoreList");
 export const liveListRef = ref(db, "users/ysHotel/dataList/liveList");
 export const simulationListRef = ref(db, "users/ysHotel/simulationlist/live");
+
 
 export default app;

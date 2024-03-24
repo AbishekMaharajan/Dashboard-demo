@@ -1,7 +1,7 @@
+import { BASE_URL } from "../firebase";
 
-// Development
-const PROJECTS_LIST_URL = "https://vrarri-dashboard-demo-2d19d-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/dataList/liveList.json";
-const INDIVIDUAL_PROJECT = "https://vrarri-dashboard-demo-2d19d-default-rtdb.asia-southeast1.firebasedatabase.app/users/ysHotel/simulationlist/live/";
+const PROJECTS_LIST_URL = `${BASE_URL}/users/ysHotel/dataList/liveList.json`;
+const INDIVIDUAL_PROJECT = `${BASE_URL}/users/ysHotel/simulationlist/live/`;
 
 export const getProjectsList = async () => {
   const res = await fetch(PROJECTS_LIST_URL);
